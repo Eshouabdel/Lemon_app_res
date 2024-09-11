@@ -4,7 +4,7 @@ import Reservations from "./routes/Reservations";
 
 import {Route, Routes} from "react-router-dom";
 
-function App() {
+function App() { 
   return (
     <>
       <Routes>
