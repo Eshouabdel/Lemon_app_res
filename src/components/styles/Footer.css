@@ -1,5 +1,5 @@
 .footer-background {
-    background-color: #333;
+    background-color: #ffffff;
     padding: 60px 0;
 }
 
@@ -8,17 +8,23 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: #185519;
+    align-items: center; /* Centers the logo horizontally */
+    text-align: center;
+  
 }
 
 .footer-container p {
     width: 60%;
     margin: 10px 0 60px;
+    font-style: oblique;
+    font-family: cursive;
     
 }
 
 .footer-container img {
     width: 80px;
+    margin-bottom: 20px
 }
 
 .footer-content {
@@ -35,6 +41,22 @@
 
 .footer-content h5 {
     margin-bottom: 30px;
+}
+.locations{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.opening-times{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contact{
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 

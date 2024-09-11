@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     align-items: center;
@@ -18,8 +19,13 @@ header {
 
 .nav-menu li {
     padding: 0 15px;
+   
+    
 }
-
+.nav-menu li a{
+    color: black;
+    font-family: "Playpen Sans", system-ui;
+}
 .nav-menu li a:hover {
     color: #495e57;
 }

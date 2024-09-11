@@ -1,13 +1,16 @@
+
 .special-card {
     display: grid;
     grid-template-columns: 31% 31% 31%;
     gap: 35px;
     margin-top: 20px;
     
+    
 }
 .special-card-container {
-    background-color: #edefee;
+    background-color: whitesmoke;
     border-radius: 20px 20px 0 0;
+    box-shadow: #FCDE70 -4px 9px 25px -6px;
 }
 
 .special-card-text {
@@ -20,7 +23,7 @@
 }
 
 .price-tag {
-    color: #ee9972
+    color: #F9E400
 }
 
 .special-card-text p {

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../components/styles/Footer.css";
-import Logo from "../components/assets/logo.png";
+import Logo from "../components/assets/favilogo - Copy.png";
 
 const Footer = () => {
   return (
@@ -11,11 +11,11 @@ const Footer = () => {
                 <p>Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. The restaurant features a locally sourced menu with daily specials.</p>
                 <div className="footer-content">
                     <div className="locations">
-                        <h5>LOCATIONS</h5>
+                        <h5>Where to Find Us</h5>
                         <ul>
-                            <li>Accra</li>
+                            <li>East Legon</li>
                             <li>Kumasi</li>
-                            <li>Cape Coast</li>
+                            <li>Spintex</li>
                             <li>Tamale</li>
                         </ul>
                     </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="contact">
-                        <h5>CONTACT US</h5>
+                        <h5>Get in Touch</h5>
                         <ul>
                             <li>96 Abafom Road, North Ridge - Accra</li>
                             <li>Tel: 020 7928 0678</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
             </div>
             <div className="copyright">
-                <p>© 2023 Little Lemon Ltd. All rights reserved.</p>
+                <p>© 2024 Little Lemon Ltd. All rights reserved.</p>
             </div>
         </div>
         </div>

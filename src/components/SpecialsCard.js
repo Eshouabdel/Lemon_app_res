@@ -12,7 +12,7 @@ const SpecialsCard = () => {
             image: Dessert1,
             title: "Greek Salad",
             price: "$12.99",
-            description: "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+            description: "The renowned Greek salad featuring crisp lettuce, peppers, olives, and our Chicago-style feta cheese, topped with crunchy garlic and rosemary croutons.",
             order: "Order a delivery"
         },
         {

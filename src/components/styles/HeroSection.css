@@ -1,5 +1,8 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .hero-section-background {
-    background-color: #495e57;
+    background-color: #185519;
     width: 100%;
 }
 
@@ -37,6 +40,7 @@
     color: #333333;
     border-radius: 20px;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn:hover {
@@ -59,6 +63,7 @@
     border-radius: 10px;
     position: absolute;
     overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .image-box img {

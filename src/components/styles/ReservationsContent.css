@@ -1,5 +1,6 @@
+
 .res-content-wrapper {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.73)), url("https://a.cdn-hotels.com/gdcs/production141/d778/6b200721-9661-4680-aca2-d6e33ce46cf0.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.73)), url("https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     width: 100%;
     background-size: cover;
 }
@@ -8,6 +9,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-direction: column;
     gap: 100px;
     width: 85%;
     margin: 0px auto;
@@ -18,6 +20,8 @@
     margin-top: 100px;
     color: #fff;
     width: 60%;
+    
+
 }
 
 .text h2 {
@@ -29,13 +33,16 @@
 }
 
 .form {
-    width: 40%;
+    width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     color: #333333;
     border-radius: 10px;
     padding: 30px 40px 50px;
     text-align: left;
+    
+    
 }
 
 .form h1 {
@@ -68,9 +75,10 @@ fieldset {
 
 input {
     padding: 10px;
-    border: 1px solid rgba(51,51,51,0.3);
+    border: 1px  whitesmoke;
     border-radius: 5px;
     width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 input[type=datetime-local] {
@@ -90,8 +98,9 @@ input[type=datetime-local] {
 
 .options {
     padding-right: 10px;
-    border: 1px solid rgba(51,51,51,0.3);
+    border: 1px  whitesmoke;
     border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 select {
@@ -107,12 +116,13 @@ select {
     width: 100%;
     padding: 20px;
     cursor: pointer;
-    background-color: #333;
+    background-color: #f4ce14;
     border: none;
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
     color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .reserve-btn:hover {
